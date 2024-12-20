@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom class for small text with medium weight */
+.text-small-medium {
+  @apply text-sm font-medium;
+}
+
+/* Adjust width of the Flowbite calendar popup */
+.datepicker-picker {
+  margin-top: 24px;
+  border: 1px #e5e7eb solid;
+  border-radius: 40px !important;
+  box-shadow: none;
+}
+
+.selected {
+  background-color: #0ea5e9;
+}
+
+.font-semibold {
+  font-weight: 500;
+}
+
+/* AvartarWithText - TravelPackagesImage */
+.avatar-large {
+  width: 150px;
+  height: auto;
+}
